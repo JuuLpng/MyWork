@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Account</title>
+    <link rel="stylesheet" href="css/account.css">
+    <nav>
+        <label for="page-menu">Navigate:</label>
+        <select id="page-menu" onchange="location = this.value;">
+            <option value="#" selected>Choose a page</option>
+            <option value="home.html">Home</option>
+            <option value="projects.html">Projects</option>
+            <option value="aboutus.html">About Us</option>
+            <option value="contactus.html">Contact Us</option>
+        </select>
+    </nav>
+</head>
+<body>
+    <div class="account-container">
+        <h1>My Account</h1>
+        <div class="profile-picture">
+            <img src="placeholder.jpg" alt="Profile Picture">
+            <input type="file" id="profile-pic" name="profile-pic" accept="image/*">
+        </div>
+        <div class="account-settings">
+            <label for="password">Change Me:</label>
+            <input type="password" id="password" name="password" placeholder="New Password">
+            <button type="submit">Update Password</button>
+        <div>
+        <div class="auth-buttons">
+            <button onclick="location.href='signup.html'">Sign up</button>
+            <button onclick="location.href='login.html'">Login</button>
+        </div>
+        <div class="social-login">
+            <p>Login With:</p>
+            <button onclick="location.href='https://accounts.google.com/'">Google</button>
+            <button onclick="location.href='https://discord.com/login'">Discord</button>
+            <button onclick="location.href='https://github.com/login'">GitHub</button>
+        </div>
+    </body>
+    </html>

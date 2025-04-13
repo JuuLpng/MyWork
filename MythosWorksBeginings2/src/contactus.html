@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/contactstyle.css">
+    <nav>
+        <label for="page-menu">Navigate:</label>
+        <select id="page-menu" onchange="location = this.value;">
+            <option value="#" selected>Choose a page</option>
+            <option value="home.html">Home</option>
+            <option value="account.html">My Account</option>
+            <option value="projects.html">Projects</option>
+            <option value="aboutus.html">About Us</option>
+        </select>
+    </nav>
+<head>
+    <h1 class="fade-in">Contact Us</h1>
+</head>
+<section>
+    <h2>Meet Our Team</h2>
+    <div class="team-container">
+        <div class="team-member">
+            <img src="/Users/ShaggyGreen/Desktop/MythosWorksBeginings/images/comordial.pdf" alt="Team Member 1">
+            <h3>Brandon "CoMordial" Barrett</h3>
+            <p>As a dedicated and hardworking individual with a passion for creativity and technology. Balancing school, family, and work, I juggle responsibilities while pursuing my ambitions in game development, anime creation, and software design. With a strong vision for MythosWorks Inc., I aim to build innovative digital experiences, from LoopBase to Grey’s Resilience, all while ensuring my projects reflect my unique artistic and technical expertise. Whether it's designing immersive worlds, developing functional applications, or refining my crypto mining interface, I bring a mix of ambition, resilience, and originality to everything I will create.</p>
+        </div>
+        <div class="team-member">
+            <img src="/Users/ShaggyGreen/Desktop/MythosWorksBeginings/images/dread.pdf" alt="Team Member 2">
+            <h3>"Dread"</h3>
+            <p>Dread Turbulence is an aspiring horror narrator with a deep passion for storytelling. As a longtime friend and collaborator, he is known for his dedication, strong work ethic, and exceptional ability to create immersive and chilling narratives. His professionalism and commitment make him a valuable and inspiring presence in any creative endeavor.</p>
+        </div>
+            <div class="team-member">
+                <img src="/Users/ShaggyGreen/Desktop/MythosWorksBeginings/images/callisto.pdf" alt="Team Member 3">
+                <h3>"Callisto"</h3>
+                <p>Though she operates under an alias, Callisto is one of the most skilled and dedicated EMTs I have had the privilege of knowing over the past two years. Despite our four-year age difference, her intelligence, innovation, and commitment to both physical and mental well-being are truly remarkable. Beyond saving lives in the field, she is actively working to advance mental health care, using her knowledge and expertise to make a meaningful impact.</p>
+            </div>
+        </div>  
+</section>
+<section class="contact-form fade-in" style="animation-delay: 1s;">
+    <h2>Get in Touch</h2>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+</body>
+</html>

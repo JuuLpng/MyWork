@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MythosWorks Inc.</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <nav>
+            <label for="page-menu">Navigate:</label>
+            <select id="page-menu" onchange="location = this.value;">
+                <option value="#" selected>Choose a page</option>
+                <option value="account.html">My Account</option>
+                <option value="projects.html">Projects</option>
+                <option value="aboutus.html">About Us</option>
+                <option value="contactus.html">Contact Us</option>
+            </select>
+        </nav>
+    </head>
+    <body>
+        <h1 class="fade-in">MythosWorks Inc.</h1>
+        <img src="images/logo.png" alt="MythosWorks Logo">
+        <p>Bringing Ideas to Life with Creativity & Teamwork.</p>
+        <div class="cta-buttons fade-in" style="animation-delay: 1.5s;">
+            <a href="projects.html">View Projects</a>
+            <a href="contactus.html">Contact Us</a>
+            <a href="aboutus.html">Why Start?</a>
+            <a href="account.html">My Account</a>
+        </div>
+      <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+</body>
+</html>

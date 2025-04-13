@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/account.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Login</h1>
+        <form action="PHP/login.php" method="post">
+            <input type="text" name="username" placeholder="Username or Email" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+        <p>Or log in with:</p>
+        <div class="social-login">
+            <button>Google</button>
+            <button>Discord</button>
+            <button>GitHub</button>
+        </div>
+        <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+    </div>
+</body>
+</html>
